@@ -1,8 +1,7 @@
 {
-  "name": "socialmedia",
+  "name": "react_sanity_socialmedia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ishar19.github.io/share-me-react-app",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@react-oauth/google": "^0.2.5",
@@ -11,7 +10,6 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-google-login": "^5.2.2",
@@ -24,8 +22,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
